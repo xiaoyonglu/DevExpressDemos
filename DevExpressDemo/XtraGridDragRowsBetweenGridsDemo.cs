@@ -92,7 +92,7 @@ namespace DevExpressDemo
 
         private DataTable GetDataSource(string sql)
         {
-            string strCon = "Data Source=.;Initial Catalog=JWDB;User ID=sa;Password=9380LU111.l";
+            string strCon = "Data Source=.;Initial Catalog=JWDB;User ID=sa;Password=11111";
             SqlDataAdapter da = new SqlDataAdapter(sql, strCon);
             DataTable dt = new System.Data.DataTable();
             da.Fill(dt);
@@ -100,18 +100,18 @@ namespace DevExpressDemo
         }
     }
 
-    public class Entity
-    {
-        public Entity()
-        {
-        }
+    //public class Entity
+    //{
+    //    public Entity()
+    //    {
+    //    }
 
-        public int id { get; set; }
-        public int userId { get; set; }
-        public string orderSerialId { get; set; }
-        public string OrderName { get; set; }
-        public string orderPrice { get; set; }
-        public string orderCount { get; set; }
+    //    public int id { get; set; }
+    //    public int userId { get; set; }
+    //    public string orderSerialId { get; set; }
+    //    public string OrderName { get; set; }
+    //    public string orderPrice { get; set; }
+    //    public string orderCount { get; set; }
         
-    }
+    //}
 }

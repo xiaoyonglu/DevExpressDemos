@@ -12,6 +12,7 @@ using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 using DevExpress.XtraGrid;
 using System.Data.SqlClient;
+using DevExpressDemo.Const;
 
 namespace DevExpressDemo
 {
@@ -92,8 +93,7 @@ namespace DevExpressDemo
 
         private DataTable GetDataSource(string sql)
         {
-            string strCon = "Data Source=.;Initial Catalog=JWDB;User ID=sa;Password=11111";
-            SqlDataAdapter da = new SqlDataAdapter(sql, strCon);
+            SqlDataAdapter da = new SqlDataAdapter(sql, DBConst.DBConnectionString);
             DataTable dt = new System.Data.DataTable();
             da.Fill(dt);
             return dt;

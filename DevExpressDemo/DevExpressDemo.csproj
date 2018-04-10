@@ -78,6 +78,7 @@
     <Compile Include="ChangeGridCellBorderStyle.Designer.cs">
       <DependentUpon>ChangeGridCellBorderStyle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Const\DBConst.cs" />
     <Compile Include="CustomMergeCellDemo.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -11,12 +11,13 @@ using DevExpress.XtraEditors;
 using System.Data.SqlClient;
 using DevExpress.Data.Filtering;
 using DevExpress.Data.Filtering.Helpers;
+using DevExpressDemo.Const;
 
 namespace DevExpressDemo
 {
     public partial class ExpressionEditorDemo : DevExpress.XtraEditors.XtraForm
     {
-        static string strCon = "Data Source=.;Initial Catalog=JWDB;User ID=sa;Password=111111";
+        static string strCon = DBConst.DBConnectionString;
         public ExpressionEditorDemo()
         {
             InitializeComponent();

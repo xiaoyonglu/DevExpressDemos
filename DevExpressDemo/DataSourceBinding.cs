@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using System.Data.SqlClient;
+using DevExpressDemo.Const;
 
 namespace DevExpressDemo
 {
@@ -20,9 +21,8 @@ namespace DevExpressDemo
         }
 
         private DataTable GetDataSource() {
-            string strCon = "Data Source=.;Initial Catalog=JWDB;User ID=sa;Password=111111";
             string sql = "select userid,username,roleid,userstate from tb_userinfo";
-            SqlDataAdapter da = new SqlDataAdapter(sql, strCon);
+            SqlDataAdapter da = new SqlDataAdapter(sql, DBConst.DBConnectionString);
             DataTable dt = new System.Data.DataTable();
             da.Fill(dt);
             return dt;

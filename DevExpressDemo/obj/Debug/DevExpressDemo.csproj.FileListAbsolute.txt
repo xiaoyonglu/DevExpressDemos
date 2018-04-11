@@ -74,3 +74,8 @@ D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridDelete
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridDisableEditorOpeningDemo.resources
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.csproj.GenerateResource.Cache
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.exe.licenses
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridDynamicCellAppearanceDemo.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridDynamicPreviewDemo.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridDynamicRowHeightsDemo.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridExpandGroupOnFocusDemo.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridExpressionEditorDem.resources

@@ -8,6 +8,6 @@ namespace DevExpressDemo.Const
 {
     public static class DBConst
     {
-        public readonly static string DBConnectionString = "Data Source=.;Initial Catalog=JWDB;User ID=sa;Password=1111.l";
+        public readonly static string DBConnectionString = "Data Source=.;Initial Catalog=JWDB;User ID=sa;Password=9380LU111.l";
     }
 }

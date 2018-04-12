@@ -54,6 +54,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
@@ -90,6 +91,12 @@
     </Compile>
     <Compile Include="DataSourceBinding.Designer.cs">
       <DependentUpon>DataSourceBinding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchLookUpEditDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchLookUpEditDemo.Designer.cs">
+      <DependentUpon>SearchLookUpEditDemo.cs</DependentUpon>
     </Compile>
     <Compile Include="XtraGridDragRowsBetweenGridsDemo.cs">
       <SubType>Form</SubType>
@@ -304,6 +311,12 @@
     <Compile Include="XtraGridExpressionEditorDem.Designer.cs">
       <DependentUpon>XtraGridExpressionEditorDem.cs</DependentUpon>
     </Compile>
+    <Compile Include="XtraGridInitCellsNewRowDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraGridInitCellsNewRowDemo.Designer.cs">
+      <DependentUpon>XtraGridInitCellsNewRowDemo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdvBandedViewDemo2.resx">
       <DependentUpon>AdvBandedViewDemo2.cs</DependentUpon>
     </EmbeddedResource>
@@ -315,6 +328,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataSourceBinding.resx">
       <DependentUpon>DataSourceBinding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchLookUpEditDemo.resx">
+      <DependentUpon>SearchLookUpEditDemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XtraGridDragRowsBetweenGridsDemo.resx">
       <DependentUpon>XtraGridDragRowsBetweenGridsDemo.cs</DependentUpon>
@@ -416,6 +432,9 @@
     <EmbeddedResource Include="XtraGridExpressionEditorDem.resx">
       <DependentUpon>XtraGridExpressionEditorDem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="XtraGridInitCellsNewRowDemo.resx">
+      <DependentUpon>XtraGridInitCellsNewRowDemo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="JWDBDataSet.xsc">
       <DependentUpon>JWDBDataSet.xsd</DependentUpon>
@@ -492,6 +511,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

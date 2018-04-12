@@ -22,7 +22,7 @@ namespace DevExpressDemo
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
-            Application.Run(new XtraGridExpressionEditorDem());
+            Application.Run(new SearchLookUpEditDemo());
         }
     }
 }

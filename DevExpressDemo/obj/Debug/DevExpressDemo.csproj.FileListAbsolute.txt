@@ -79,3 +79,5 @@ D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridDynami
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridDynamicRowHeightsDemo.resources
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridExpandGroupOnFocusDemo.resources
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridExpressionEditorDem.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridInitCellsNewRowDemo.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.SearchLookUpEditDemo.resources

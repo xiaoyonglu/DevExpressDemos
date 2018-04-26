@@ -41,7 +41,6 @@ D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.exe
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.pdb
 D:\学习\DevExpressDemos\DevExpressDemo\bin\Debug\DevExpressDemo.exe
 D:\学习\DevExpressDemos\DevExpressDemo\bin\Debug\DevExpressDemo.pdb
-D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.csprojResolveAssemblyReference.cache
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.AdvBandedViewDemo2.resources
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.ChangeGridCellBorderStyle.resources
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.CustomMergeCellDemo.resources
@@ -81,3 +80,5 @@ D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridExpand
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridExpressionEditorDem.resources
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.XtraGridInitCellsNewRowDemo.resources
 D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.SearchLookUpEditDemo.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.SearchLookUpEditDemo2.resources
+D:\学习\DevExpressDemos\DevExpressDemo\obj\Debug\DevExpressDemo.csprojResolveAssemblyReference.cache

@@ -1,6 +1,6 @@
 ﻿namespace DevExpressDemo
 {
-    partial class SearchLookUpEditDemo
+    partial class SearchLookUpEditDemo2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,22 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.ID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemSearchLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit();
             this.repositoryItemSearchLookUpEdit1View = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.Name = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.jWDBDataSet4 = new DevExpressDemo.JWDBDataSet4();
-            this.tborderBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tb_orderTableAdapter = new DevExpressDemo.JWDBDataSet4TableAdapters.tb_orderTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchLookUpEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchLookUpEdit1View)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.jWDBDataSet4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tborderBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // gridControl1
@@ -54,10 +48,11 @@
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemSearchLookUpEdit1});
-            this.gridControl1.Size = new System.Drawing.Size(931, 440);
+            this.gridControl1.Size = new System.Drawing.Size(670, 376);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            this.gridControl1.Load += new System.EventHandler(this.gridControl1_Load);
             // 
             // gridView1
             // 
@@ -85,7 +80,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.repositoryItemSearchLookUpEdit1.DisplayMember = "ID";
             this.repositoryItemSearchLookUpEdit1.Name = "repositoryItemSearchLookUpEdit1";
-            this.repositoryItemSearchLookUpEdit1.NullText = "Please select a value";
             this.repositoryItemSearchLookUpEdit1.ValueMember = "ID";
             this.repositoryItemSearchLookUpEdit1.View = this.repositoryItemSearchLookUpEdit1View;
             // 
@@ -104,35 +98,18 @@
             this.Name.Visible = true;
             this.Name.VisibleIndex = 1;
             // 
-            // jWDBDataSet4
-            // 
-            this.jWDBDataSet4.DataSetName = "JWDBDataSet4";
-            this.jWDBDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tborderBindingSource
-            // 
-            this.tborderBindingSource.DataMember = "tb_order";
-            this.tborderBindingSource.DataSource = this.jWDBDataSet4;
-            // 
-            // tb_orderTableAdapter
-            // 
-            this.tb_orderTableAdapter.ClearBeforeFill = true;
-            // 
-            // SearchLookUpEditDemo
+            // SearchLookUpEditDemo2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 440);
+            this.ClientSize = new System.Drawing.Size(670, 376);
             this.Controls.Add(this.gridControl1);
-            //this.Name = "SearchLookUpEditDemo";
-            this.Text = "SearchLookUpEditDemo";
-            this.Load += new System.EventHandler(this.SearchLookUpEditDemo_Load);
+            //this.Name = "SearchLookUpEditDemo2";
+            this.Text = "SearchLookUpEditDemo2";
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchLookUpEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSearchLookUpEdit1View)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.jWDBDataSet4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tborderBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -141,12 +118,9 @@
 
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private JWDBDataSet4 jWDBDataSet4;
-        private System.Windows.Forms.BindingSource tborderBindingSource;
-        private JWDBDataSet4TableAdapters.tb_orderTableAdapter tb_orderTableAdapter;
         private DevExpress.XtraGrid.Columns.GridColumn ID;
+        private DevExpress.XtraGrid.Columns.GridColumn Name;
         private DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit repositoryItemSearchLookUpEdit1;
         private DevExpress.XtraGrid.Views.Grid.GridView repositoryItemSearchLookUpEdit1View;
-        private DevExpress.XtraGrid.Columns.GridColumn Name;
     }
 }

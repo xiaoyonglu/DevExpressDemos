@@ -98,6 +98,12 @@
     <Compile Include="SearchLookUpEditDemo.Designer.cs">
       <DependentUpon>SearchLookUpEditDemo.cs</DependentUpon>
     </Compile>
+    <Compile Include="SearchLookUpEditDemo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchLookUpEditDemo2.Designer.cs">
+      <DependentUpon>SearchLookUpEditDemo2.cs</DependentUpon>
+    </Compile>
     <Compile Include="XtraGridDragRowsBetweenGridsDemo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -331,6 +337,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SearchLookUpEditDemo.resx">
       <DependentUpon>SearchLookUpEditDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchLookUpEditDemo2.resx">
+      <DependentUpon>SearchLookUpEditDemo2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XtraGridDragRowsBetweenGridsDemo.resx">
       <DependentUpon>XtraGridDragRowsBetweenGridsDemo.cs</DependentUpon>

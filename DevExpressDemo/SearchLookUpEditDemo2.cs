@@ -8,24 +8,22 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
-using System.Text.RegularExpressions;
 
 namespace DevExpressDemo
 {
-    public partial class SearchLookUpEditDemo : DevExpress.XtraEditors.XtraForm
+    public partial class SearchLookUpEditDemo2 : DevExpress.XtraEditors.XtraForm
     {
-        public SearchLookUpEditDemo()
-        {
-            InitializeComponent();
-        }
-
         DataTable dt = new DataTable();
 
-        private void SearchLookUpEditDemo_Load(object sender, EventArgs e)
+        public SearchLookUpEditDemo2()
         {
-            // TODO: 这行代码将数据加载到表“jWDBDataSet4.tb_order”中。您可以根据需要移动或删除它。
-            this.tb_orderTableAdapter.Fill(this.jWDBDataSet4.tb_order);
+            InitializeComponent();
 
+            var result = ((Int32)129 == (Int32)129);
+        }
+
+        private void gridControl1_Load(object sender, EventArgs e)
+        {
             dt.Columns.Add("ID");
             dt.Columns.Add("Name");
 
@@ -37,8 +35,8 @@ namespace DevExpressDemo
                 dt.Rows.Add(row);
                 System.Threading.Thread.Sleep(1);
             }
-
             this.repositoryItemSearchLookUpEdit1.DataSource = dt;
+            //this.reso .DataSource = dt;
             this.gridControl1.DataSource = dt.Clone();
         }
 
